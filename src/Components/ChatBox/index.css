@@ -1,0 +1,96 @@
+.chatbox-container{
+    background-color: rgb(245, 242, 242);
+    width: 70%;
+    padding: 20px;
+    position: relative;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.member-container{
+    display: flex;
+    align-items: center;
+}
+
+.members-icon{
+    margin-left: 10px;
+    color: grey;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    height: calc(100% - 150px);
+}
+
+.chat {
+    list-style: none;
+}
+
+.person-details{
+    display: flex;
+    align-items: center;
+}
+
+.profile-name-letter{
+    background-color: orangered;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+.time{
+    color: gray;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.text-container{
+    background-color: white;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.textbox{
+    position: fixed;
+    bottom: 0;
+    padding: 8px;
+    width: 65%;
+    margin-bottom: 30px;
+    border: 2px solid gray;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textbox textarea {
+    width: 90%;
+    resize: none;
+    border: none;
+    background-color: rgb(245, 242, 242);
+    outline: none;
+}
+
+.textbox textarea::placeholder{
+    color:grey;
+    font-size: 14px;
+    padding-top: 3px;
+}
+

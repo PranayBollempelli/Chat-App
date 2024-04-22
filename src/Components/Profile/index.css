@@ -1,0 +1,52 @@
+.Profile-Container{
+    width: 30%;
+    padding: 20px;
+}
+
+.Person-details-container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture{
+    background-color: rgb(244, 122, 122);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profession{
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;
+}
+
+.chat-profile-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conversation-heading{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.add-button{
+    background-color: white;
+    border: 0px;
+}
+
+.add-icon{
+    font-size: 16px;
+}
